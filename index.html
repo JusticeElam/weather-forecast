@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast App</title>
+
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+  <header>
+    <h1>Weather Forecast</h1>
+
+    <img src="My_Logo_2.png" alt="Weather Icon">
+  </header>
+
+  <main>
+    <div class="container">
+
+      <h1>Weather Forecast Website</h1>
+
+      <div class="search-box">
+        <input
+          type="text"
+          id="cityInput"
+          placeholder="Enter city name"
+        >
+
+        <button id="searchBtn">
+          Search
+        </button>
+      </div>
+
+      <div class="weather-card">
+
+        <h2 id="cityName">Search for a city</h2>
+
+        <img
+          id="weatherIcon"
+          src=""
+          alt="Weather Icon"
+          style="display: none;"
+        >
+
+        <h1 id="temperature">--°C</h1>
+
+        <p id="description">
+          Weather description
+        </p>
+
+        <p id="humidity">
+          Humidity: --
+        </p>
+
+        <p id="windSpeed">
+          Wind Speed: --
+        </p>
+
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Weather Forecast Website. <br> All rights reserved.</p>
+  </footer>
+    <script src="weather.js"></script>
+
+</body>
+</html>

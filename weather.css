@@ -1,0 +1,150 @@
+/* =========================
+   RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; 
+}
+
+/* =========================
+   HEADER
+========================= */
+header{
+  background: linear-gradient(to right, #000000, #424242);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+header img {
+  width: 100px;
+}
+
+header h1 {
+  font-size: 30px;
+}
+
+/* =========================
+   BODY
+========================= */
+main{
+  background: linear-gradient(to right, #4b4b4b, #000000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* =========================
+   WEATHER CONTAINER
+========================= */
+.container {
+  width: 400px;
+  background: #ffffff13;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  color: white;
+  box-shadow: 0 0 20px white;
+}
+
+/* =========================
+   TITLE
+========================= */
+.container h1 {
+  margin-bottom: 20px;
+  color: #dbdbdb;
+}
+
+/* =========================
+   SEARCH BOX
+========================= */
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.search-box button {
+  padding: 12px 18px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background: #3494e9;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.search-box button:hover {
+  background: #0e86e7;
+}
+
+/* =========================
+   WEATHER INFO
+========================= */
+.weather-info {
+  margin-top: 20px;
+}
+
+.weather-card h2 {
+  margin-bottom: 20px;
+}
+
+.weather-card h1 {
+  font-size: 50px;
+  border: 2px solid #111;
+}
+
+.weather-info p {
+  margin: 10px 0;
+  color: #555;
+  font-size: 18px;
+}
+
+/* =========================
+   WEATHER ICON
+========================= */
+#weatherIcon {
+  width: 50px;
+  margin: 10px auto;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 900px) {
+
+  .container {
+    width: 90%;
+    padding: 20px;
+  }
+}
