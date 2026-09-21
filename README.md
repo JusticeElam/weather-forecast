@@ -22,7 +22,7 @@ A responsive weather forecast web application that displays real-time weather in
 
 ## 🔗 Live Demo
 
-[View Live Website] (justiceelam.github.io/weather-forecast/)
+[View Live Website](https://justiceelam.github.io/weather-forecast/)
 
 ## Author
 
